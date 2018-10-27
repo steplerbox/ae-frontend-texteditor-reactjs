@@ -1,0 +1,40 @@
+.synonyms-panel {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    display: inline-block;
+    min-height: 60px;
+    max-height: 200px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.word {
+    border-bottom: 1px solid #aaa;
+    font-weight: bold;
+    height: 20px;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.synonyms-list {
+    overflow: auto;
+    max-height: 180px;
+}
+
+.synonym {
+    cursor: pointer;
+    height: 20px;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.synonym:hover {
+    background-color: #aaa;
+}
+
+.not-found {
+    padding: 0 10px;
+    color: #aaa;
+}

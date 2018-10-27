@@ -1,0 +1,4 @@
+.popup {
+    position: absolute;
+    transform: translateX(-50%);
+}
